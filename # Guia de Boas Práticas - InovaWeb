@@ -1,0 +1,69 @@
+# guia-boas-praticas-inovaweb
+ Manual de boas práticas digitais desenvolvido para clientes da agência.
+Cecilia Viana Guimarães Simões
+# Guia breve sobre Versionamento
+
+## 1. O que é versionamento?
+
+Versionamento é o processo de registrar e controlar as alterações realizadas em arquivos, documentos ou códigos ao longo do tempo.
+
+Ele permite acompanhar o histórico de modificações, identificar quem realizou cada alteração e recuperar versões anteriores quando necessário.
+
+## 2. Para que serve?
+
+- Organização: mantém o histórico das alterações.
+- Segurança: permite recuperar versões anteriores.
+- Colaboração: facilita o trabalho em equipe.
+- Rastreabilidade: identifica quem fez cada modificação e quando.
+- Controle: evita perda de informações e conflitos entre alterações.
+
+## 3. Principais tipos de versionamento
+
+- Versionamento local: mantém as versões armazenadas em um computador.
+- Versionamento centralizado: utiliza um servidor central para armazenar e controlar as versões.
+- Versionamento distribuído: cada colaborador possui uma cópia completa do histórico do projeto.
+
+## 4. Ferramentas mais utilizadas
+
+- Git: sistema de controle de versão distribuído.
+- GitHub: plataforma para hospedar e compartilhar projetos Git.
+- GitLab: plataforma de gerenciamento de repositórios e projetos.
+- Bitbucket: plataforma de hospedagem e colaboração em projetos.
+
+## 5. Principais conceitos do Git
+
+| Conceito | Significado |
+| --- | --- |
+| Repository (Repositório) | Local onde o projeto e seu histórico são armazenados. |
+| Commit | Registro de uma alteração. |
+| Branch | Ramificação para desenvolver funcionalidades separadamente. |
+| Merge | União de alterações de diferentes branches. |
+| Clone | Cópia de um repositório. |
+| Push | Envio de alterações para o repositório remoto. |
+| Pull | Atualização do projeto com alterações remotas. |
+
+## 6. Boas práticas de versionamento
+
+1. Realizar commits frequentemente.
+2. Criar mensagens de commit claras e objetivas.
+3. Utilizar branches para novas funcionalidades.
+4. Evitar enviar arquivos desnecessários.
+5. Revisar as alterações antes de integrá-las ao projeto.
+6. Manter o histórico organizado.
+
+## 7. Exemplo de fluxo básico com Git
+
+bash
+
+```bash
+git init
+git add .
+git commit -m "Primeira versão do projeto"
+git branch -M main
+git remote add origin URL_DO_REPOSITORIO
+git push -u origin main
+```
+
+## 8. Conclusão
+
+O versionamento é fundamental para organizar, acompanhar e controlar as mudanças em projetos. Ferramentas como Git e GitHub tornam o desenvolvimento mais seguro, colaborativo e eficiente, permitindo que diferentes pessoas trabalhem no mesmo projeto sem perder o histórico das alterações.
